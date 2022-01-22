@@ -2,16 +2,17 @@
 }
 
 header {
-    background-color: dimgray;
+    background-color: #9c95c7; 
 }
 
 main {
-    background-color: aliceblue;
+    background-color: whitesmoke;
+    box-shadow: -15px -10px 20px #f9ef69
 }
 
 .headingStyle {
     font-weight: bold;
-    text-decoration: underline;
+   color: #3e3c39
 }
 
 #asideHeader {
@@ -35,4 +36,9 @@ nav ul li {
 nav ul li a {
     padding: .8em 1em;
     display: block;
+}
+
+.classesText {
+    color: #5e748c;
+    text-align: center;
 }
