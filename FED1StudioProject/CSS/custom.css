@@ -1,8 +1,9 @@
-﻿body {  
-}
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap'); 
 
 header {
-    background-color: #9c95c7; 
+    background-color: #9c95c7;
 }
 
 main {
@@ -12,12 +13,16 @@ main {
 
 .headingStyle {
     font-weight: bold;
-   color: #3e3c39
+   color: #3e3c39;
+   font-family: 'Dongle', cursive;
+   font-size: 1.5em;
 }
 
 #asideHeader {
-    background-color: lightgreen;
-    color: lightblue;
+    background-color: lavender;
+    color: royalblue;
+    font-family: 'Dongle', cursive;
+    font-size: 1.5em;
 }
 
 nav a {
@@ -41,4 +46,21 @@ nav ul li a {
 .classesText {
     color: #5e748c;
     text-align: center;
+}
+
+header h1 {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header p {
+    
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Dongle', cursive;
+}
+
+p {
+    font-family: 'Dongle', cursive;
 }
