@@ -1,6 +1,6 @@
 ﻿
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
 header {
     background-color: #9c95c7;
@@ -8,14 +8,15 @@ header {
 
 main {
     background-color: whitesmoke;
-    box-shadow: -15px -10px 20px #f9ef69
+    box-shadow: -15px -10px 20px #9c95c7;
 }
 
 .headingStyle {
     font-weight: bold;
-   color: #3e3c39;
-   font-family: 'Dongle', cursive;
-   font-size: 1.5em;
+    color: #3e3c39;
+    font-family: 'Dongle', cursive;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 #asideHeader {
@@ -38,10 +39,10 @@ nav ul li {
     display: inline-block;
 }
 
-nav ul li a {
-    padding: .8em 1em;
-    display: block;
-}
+    nav ul li a {
+        padding: .8em 1em;
+        display: block;
+    }
 
 .classesText {
     color: #5e748c;
@@ -55,7 +56,6 @@ header h1 {
 }
 
 header p {
-    
     text-align: center;
     font-size: 2em;
     font-family: 'Dongle', cursive;
@@ -64,3 +64,36 @@ header p {
 p {
     font-family: 'Dongle', cursive;
 }
+
+body {
+    background-image: url('../Images/Yellow-Lego.jpg');
+    background-repeat: repeat;
+    background-color: yellow;
+}
+
+div.galleryItem {
+    margin: 5px;
+    border: 1px solid #444;
+    display: inline-block;
+    width: 350px;
+}
+
+    div.galleryItem:hover {
+        border: 1px solid #9c95c7;
+    }
+
+    div.galleryItem img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.galleryItem a:hover {
+        background-color: #9c95c7;
+    }
+
+    #imageGallery {
+        margin: 0 auto;
+        width: 85%;
+        text-align: center;
+    }
+

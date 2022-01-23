@@ -67,10 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="android-chrome-192x192.png" />
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />
     <Content Include="CSS\custom.css" />
+    <Content Include="Images\Lego-Brick-Assortment.jpg" />
+    <Content Include="Images\Lego-MiniFigs.jpg" />
+    <Content Include="Images\Lego-Pieces.jpg" />
+    <Content Include="Images\Lego-Removal.jpg" />
+    <Content Include="Images\Lego-Scenery.jpg" />
+    <Content Include="Images\Lego-TeamBuilding.jpg" />
+    <Content Include="Images\Lego-Texture.jpg" />
     <Content Include="Images\rsz_4lego_hands.jpg" />
+    <Content Include="Images\Yellow-Lego.jpg" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
