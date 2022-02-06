@@ -15,7 +15,7 @@ main {
     font-weight: bold;
     color: #3e3c39;
     font-family: 'Dongle', cursive;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
 }
 
@@ -71,29 +71,138 @@ body {
     background-color: yellow;
 }
 
+#imageGallery {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
 div.galleryItem {
     margin: 5px;
-    border: 1px solid #444;
+    border: 1px solid blueviolet;
     display: inline-block;
     width: 350px;
 }
 
-    div.galleryItem:hover {
-        border: 1px solid #9c95c7;
+    .galleryItem:hover {
+        border: 1px solid #EE9DC3;
     }
 
-    div.galleryItem img {
-        width: 100%;
-        height: auto;
+div #imageGallery img {
+    width: 350px;
+    height: auto;
+}
+
+div.description {
+    padding: 15px;
+    text-align: center;
+}
+
+.mainWrapper {
+    padding: 1%;
+}
+
+.asideWrapper {
+    padding: 1%;
+}
+
+footer {
+    padding: 3%;
+}
+
+#headerOverlay {
+    background-image: url(../Images/rsz_4lego_hands.jpg);
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+    padding: 2em;
+}
+
+header h1, header p {
+    margin: 7px 0 7px 150px;
+}
+
+header h1 {
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+header {
+    border-radius: 5px;
+}
+
+.clear {
+    clear: both
+}
+
+.teamHeaders {
+    text-align: center;
+}
+
+.teamImageLeft {
+    width: 25%;
+    float: left;
+}
+
+.teamImage {
+    width: 45%;
+    margin: 3%;
+}
+
+.teamTextRight {
+    width: 75%;
+    float: right;
+}
+
+#asideTeam {
+    width: 20%;
+    float: right;
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+
+#teamLeftColumn {
+    margin-right: 25%;
+    border-right: 1px dashed #B6E0EA
+}
+
+#teamRightColumn {
+    width: 23%;
+    float: right;
+}
+
+table, tr, td, th {
+    border-collapse: collapse; 
+}
+
+table {
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 5em;
+    width: 80%;
+    text-align: center;
+    border: solid 2px #254069;
+    border-top: none;
+    border-spacing: 0;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: .3em;
+}
+
+thead {
+    background-color: #069D9F;
+}
+
+    tfoot tr, td {
+        border: 0;
     }
 
-    div.galleryItem a:hover {
-        background-color: #9c95c7;
-    }
-
-    #imageGallery {
-        margin: 0 auto;
-        width: 85%;
-        text-align: center;
-    }
-
+tbody tr:nth-child(even) {
+    background-color: #63B26E
+}
