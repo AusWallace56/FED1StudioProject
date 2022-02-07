@@ -71,9 +71,12 @@
     <Content Include="Contact.html" />
     <Content Include="Classes.html" />
     <Content Include="CSS\custom.css" />
+    <Content Include="Images\AboutUs.png" />
     <Content Include="Images\Admin1.png" />
     <Content Include="Images\Admin2.png" />
     <Content Include="Images\Admin3.png" />
+    <Content Include="Images\ChooseUs1.png" />
+    <Content Include="Images\ChooseUs2.png" />
     <Content Include="Images\Instructor1.png" />
     <Content Include="Images\Instructor2.png" />
     <Content Include="Images\Instructor3.png" />

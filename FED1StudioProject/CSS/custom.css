@@ -69,6 +69,7 @@ body {
     background-image: url('../Images/Yellow-Lego.jpg');
     background-repeat: repeat;
     background-color: yellow;
+    margin: 2%;
 }
 
 #imageGallery {
@@ -84,9 +85,9 @@ div.galleryItem {
     width: 350px;
 }
 
-    .galleryItem:hover {
-        border: 1px solid #EE9DC3;
-    }
+.galleryItem:hover {
+    border: 1px solid #EE9DC3;
+}
 
 div #imageGallery img {
     width: 350px;
@@ -172,7 +173,7 @@ header {
 }
 
 table, tr, td, th {
-    border-collapse: collapse; 
+    border-collapse: collapse;
 }
 
 table {
@@ -199,10 +200,69 @@ thead {
     background-color: #069D9F;
 }
 
-    tfoot tr, td {
-        border: 0;
-    }
+tfoot tr, td {
+    border: 0;
+}
 
 tbody tr:nth-child(even) {
     background-color: #63B26E
 }
+
+.imageRTextL {
+    width: 95%;
+}
+
+    .imageRTextL img {
+        float: right;
+        margin-right: 15%;
+    }
+
+    .imageRTextL p {
+        margin-right: 52%;
+        margin-left: 2%;
+        font-size: 1.5em;
+        padding-top: 7%;
+    }
+
+.imageLTextR {
+    width: 95%;
+}
+
+    .imageLTextR img {
+        float: left;
+        margin-left: 15%;
+    }
+
+    .imageLTextR p {
+        margin-left: 55%;
+        font-size: 1.5em;
+        padding-top: 7%
+    }
+
+#aboutUsImg {
+    float: left;
+    margin-left: 7%;
+}
+
+#aboutUsText {
+    margin-left: 30%;
+    padding-top: 5%;
+}
+
+.socialIcons {
+    font-size: 40px;
+    text-align: right;
+    float: right;
+    letter-spacing: 12px;
+    color: #5F8265
+}
+
+    .socialIcons a {
+        color: #5F8265;
+        text-decoration: none;
+    }
+
+    .contactStyle {
+        text-align: center;
+        font-size: 1.5em;
+    }
