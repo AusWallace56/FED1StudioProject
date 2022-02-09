@@ -57,7 +57,7 @@
     </nav>
 
     <main>
-        <aside id="teamRightColumn">
+        <!--<aside id="teamRightColumn">
             <h3>Departments</h3>
             <ul class="asideTeam">
                 <li><a href="#leadership">Leadership</a></li>
@@ -65,9 +65,9 @@
                 <li><a href="#sales">Sales</a></li>
                 <li><a href="#instructors">Instructors</a></li>
             </ul>
-        </aside>
+        </aside>-->
         <div class=""></div>
-        <div id="teamLeftColumn">
+        <div>
             <section>
                 <h1 class="teamHeaders" id="leadership">Leadership</h1>
                 <article>
@@ -256,7 +256,32 @@
 
     </main>
 
+    <div id="team-btn" class="button" onclick="openTeamNav()">
+        <span class="vertical-text">TEAM</span>
+    </div>
 
+    <div id="team-nav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeTeamNav()">&times;</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#admin">Administrators</a>
+        <a href="#sales">Sales</a>
+        <a href="#instructors">Instructors</a>
+    </div>
+
+    <script type="text/javascript">
+
+        function openTeamNav() {
+            document.getElementById('team-btn').style.display = "none";
+            document.getElementById('team-nav').style.width = "250px";
+        }
+
+        function closeTeamNav() {
+            document.getElementById('team-btn').style.display = "block";
+            document.getElementById('team-nav').style.width = "0";
+        }
+    </script>
+
+    <script src="JS/teamnav.js"></script>
 
 </body>
 </html>
