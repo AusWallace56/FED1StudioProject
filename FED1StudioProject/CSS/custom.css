@@ -93,12 +93,13 @@ div.galleryItem {
     display: inline-block;
     width: 350px;
 }
+ 
 
 .galleryItem:hover {
     border: 1px solid #EE9DC3;
 }
 
-div #imageGallery img {
+div#imageGallery img {
     width: 350px;
     height: auto;
 }
@@ -119,6 +120,8 @@ div.description {
 
 footer {
     padding: 3%;
+    font-family: 'Dongle', cursive;
+    font-size: 1.5em;
 }
 
 #headerOverlay {
