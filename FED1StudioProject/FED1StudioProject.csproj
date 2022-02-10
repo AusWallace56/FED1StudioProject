@@ -90,6 +90,7 @@
     <Content Include="Images\Lego-Scenery.jpg" />
     <Content Include="Images\Lego-TeamBuilding.jpg" />
     <Content Include="Images\Lego-Texture.jpg" />
+    <Content Include="Images\PossibleLogo.jpg" />
     <Content Include="Images\rsz_4lego_hands.jpg" />
     <Content Include="Images\rsz_lego-scenery.jpg" />
     <Content Include="Images\rsz_lego-teambuilding.jpg" />
@@ -99,6 +100,7 @@
     <Content Include="Images\Sales3.png" />
     <Content Include="Images\Yellow-Lego.jpg" />
     <Content Include="JS\teamnav.js" />
+    <Content Include="JS\teampics.js" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />

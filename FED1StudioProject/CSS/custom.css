@@ -122,7 +122,7 @@ footer {
 }
 
 #headerOverlay {
-    background-image: url(../Images/rsz_4lego_hands.jpg);
+    background-image: url('../Images/PossibleLogo.jpg');
     background-repeat: no-repeat;
     background-size: 90px;
     background-position: 3% center;
@@ -344,4 +344,29 @@ tbody tr:nth-child(even) {
     font-size: 18px;
     letter-spacing: 5px;
     color: #9C006B;
+}
+
+.teamImage {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    text-align: center;
+    padding: 65px;
+    display: none;
+}
+
+#lightbox-container {
+    color: white;
+}
+
+#lightbox-content img {
+    border: 10px solid gray;
+    margin: auto;
 }
